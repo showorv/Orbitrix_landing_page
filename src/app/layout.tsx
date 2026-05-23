@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/ui/theme-provider";
+import { Analytics } from "@vercel/analytics/next"
 
 const geistHeading = Geist({subsets:['latin'],variable:'--font-heading'});
 
@@ -54,6 +55,7 @@ export default function RootLayout({
             disableTransitionOnChange>
 
         {children}
+        <Analytics />
         </ThemeProvider>
         
         </body>
