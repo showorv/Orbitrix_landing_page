@@ -4,10 +4,9 @@ import Hero from "@/components/section/Hero";
 import Portfolio from "@/components/section/Portfolio";
 import Process from "@/components/section/Process";
 import Services from "@/components/section/Service";
-import { ModeToggle } from "@/components/shared/Dark-theme";
-import { Button } from "@/components/ui/button";
+
 import Head from "next/head";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
@@ -25,7 +24,7 @@ export default function Home() {
 
 <meta name="author" content="ORBITRIX" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
     <main>
 
