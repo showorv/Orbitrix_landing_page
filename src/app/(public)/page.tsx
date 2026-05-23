@@ -12,15 +12,21 @@ import Image from "next/image";
 export default function Home() {
   return (
    <div >
-  {/* <Head>
-        <title>Events & Activites. Here you can get the events to join </title>
+  <Head>
+        <title>ORBITRIX — Precision Digital Agency</title>
         <meta
           name="description"
-          content="Discover your interested events & activities . Find and join events to enjoy your day"
+          content="ORBITRIX is a precision-driven digital agency building high-performance web applications, automation systems, ERP solutions, and AI-powered products."
         />
+          <meta
+    name="keywords"
+    content="web development agency, software agency, automation, ERP solutions, AI development, Next.js agency, UI UX design, full stack development"
+  />
+
+<meta name="author" content="ORBITRIX" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-      </Head> */}
+      </Head>
     <main>
 
       <Hero />
